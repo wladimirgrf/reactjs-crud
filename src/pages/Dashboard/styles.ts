@@ -8,7 +8,8 @@ export const FoodsContainer = styled.div`
   margin-top: -140px;
 
   display: grid;
+  align-items: center;
 
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 32px;
 `;
